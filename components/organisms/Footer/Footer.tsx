@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-6">
             <Logo variant="white" />
             <p className="text-gray-300">
-              Plataforma educativa especializada en cursos profesionales y evaluación DISC para el desarrollo personal y
+              Plataforma educativa especializada en cursos profesionales para el desarrollo personal y
               profesional.
             </p>
             <div className="flex space-x-4">
@@ -41,11 +41,6 @@ const Footer = () => {
               <li>
                 <Link href="/cursos" className="text-gray-300 hover:text-primary transition-colors">
                   Cursos
-                </Link>
-              </li>
-              <li>
-                <Link href="/disc" className="text-gray-300 hover:text-primary transition-colors">
-                  Evaluación DISC
                 </Link>
               </li>
               <li>

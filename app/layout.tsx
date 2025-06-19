@@ -23,7 +23,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Sanmartin Academia - Plataforma de Aprendizaje",
-  description: "Plataforma educativa con cursos especializados y evaluación DISC",
+  description: "Plataforma educativa con cursos especializados",
 }
 
 export default function RootLayout({

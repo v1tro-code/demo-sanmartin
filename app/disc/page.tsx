@@ -6,7 +6,7 @@ import DiscCertificate from "@/components/organisms/DiscCertificate/DiscCertific
 import ContactForm from "@/components/organisms/ContactForm/ContactForm"
 
 export const metadata = {
-  title: "Evaluación DISC - Sanmartin Academia",
+  title: "Sanmartin Academia",
   description: "Descubre tu perfil DISC y mejora tus habilidades personales y profesionales",
 }
 
@@ -45,7 +45,7 @@ export default function DiscPage() {
       <section className="py-16 bg-white" id="que-es">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">¿Qué es la evaluación DISC?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">¿Qué es la evaluación?</h2>
             <p className="text-lg text-gray-700">
               DISC es un modelo de comportamiento basado en el trabajo del psicólogo William Moulton Marston. Identifica
               cuatro tipos de personalidad principales: Dominancia (D), Influencia (I), Estabilidad (S) y Cumplimiento

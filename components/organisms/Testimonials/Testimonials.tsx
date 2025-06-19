@@ -7,7 +7,7 @@ const testimonials = [
     role: "Director de Marketing",
     image: "/professional-man-suit.png",
     testimonial:
-      "La evaluación DISC me ayudó a entender mejor a mi equipo y mejorar nuestra comunicación. Los cursos son excelentes y el contenido es de alta calidad.",
+      "Los cursos son excelentes y el contenido es de alta calidad.",
     rating: 5,
   },
   {

@@ -45,7 +45,7 @@ const featuredCourses = [
   },
   {
     id: "4",
-    title: "Introducción a la Evaluación DISC",
+    title: "Introducción ",
     description:
       "Comprende los fundamentos del modelo DISC y cómo aplicarlo en tu desarrollo personal y profesional para mejorar tus relaciones y rendimiento.",
     image: "/young-entrepreneur-man.png",

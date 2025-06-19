@@ -10,7 +10,7 @@ const CallToAction = () => {
             ¿Listo para impulsar tu desarrollo profesional?
           </h2>
           <p className="text-secondary/80 mx-auto mb-10 text-lg">
-            Únete a nuestra comunidad de profesionales y accede a cursos especializados, evaluación DISC y recursos
+            Únete a nuestra comunidad de profesionales y accede a cursos especializados, recursos
             exclusivos para potenciar tu carrera.
           </p>
           <div className="flex flex-wrap justify-center gap-6">
