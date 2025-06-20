@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link"
 import { StarIcon, Users } from "lucide-react"
+import CourseImage from "@/components/atoms/CourseImage/CourseImage"
 import type { Course } from "@/types/course"
 
 // Función para formatear el precio como moneda colombiana
@@ -31,14 +32,11 @@ export default function CourseCard({
     <div className="bg-white rounded-xl shadow-md overflow-hidden transition-all hover:shadow-lg mb-6">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/3 relative h-64 md:h-auto">
-          <img
+          <CourseImage
             src={image || "/placeholder.svg"}
             alt={title}
             className="w-full h-full object-cover"
-            style={{ maxHeight: "100%", width: "100%" }}
-            onError={(e) => {
-              e.currentTarget.src = fallbackImage
-            }}
+            fallbackSrc={fallbackImage}
           />
         </div>
 

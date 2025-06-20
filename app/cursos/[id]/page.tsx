@@ -3,6 +3,7 @@ import { Clock, Users, Star, BookOpen, Award } from "lucide-react"
 import CourseModules from "@/components/organisms/CourseModules/CourseModules"
 import CourseInstructor from "@/components/molecules/CourseInstructor/CourseInstructor"
 import CoursePurchaseCard from "@/components/molecules/CoursePurchaseCard/CoursePurchaseCard"
+import CourseImage from "@/components/atoms/CourseImage/CourseImage"
 import { notFound } from "next/navigation"
 
 export async function generateMetadata({ params }: { params: { id: string } }) {
@@ -39,15 +40,12 @@ export default async function CoursePage({ params }: { params: { id: string } })
           <div className="lg:col-span-2">
             <div className="bg-white rounded-xl shadow-md overflow-hidden mb-8">
               <div className="relative h-64 md:h-80">
-                {/* Usamos img nativo en lugar del componente Image */}
-                <img
+                {/* Usamos CourseImage para manejar errores del lado del cliente */}
+                <CourseImage
                   src={course.image || fallbackImage}
                   alt={course.title}
                   className="absolute inset-0 w-full h-full object-cover"
-                  onError={(e) => {
-                    // Si hay un error al cargar la imagen, usar la imagen de respaldo
-                    e.currentTarget.src = fallbackImage
-                  }}
+                  fallbackSrc={fallbackImage}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-6 text-white">

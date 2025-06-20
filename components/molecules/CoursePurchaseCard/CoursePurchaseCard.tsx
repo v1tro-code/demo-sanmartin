@@ -2,6 +2,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Check, Star } from "lucide-react"
+import CourseImage from "@/components/atoms/CourseImage/CourseImage"
 import type { Course } from "@/types/course"
 
 // Función para formatear el precio como moneda colombiana
@@ -32,15 +33,12 @@ export default function CoursePurchaseCard({ course }: { course: Course }) {
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden sticky top-4">
       <div className="relative h-48">
-        {/* Usamos img nativo en lugar del componente Image */}
-        <img
+        {/* Usamos CourseImage para manejar errores del lado del cliente */}
+        <CourseImage
           src={course.image || fallbackImage}
           alt={course.title}
           className="absolute inset-0 w-full h-full object-cover"
-          onError={(e) => {
-            // Si hay un error al cargar la imagen, usar la imagen de respaldo
-            e.currentTarget.src = fallbackImage
-          }}
+          fallbackSrc={fallbackImage}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
         <div className="absolute bottom-0 left-0 p-4 text-white">
