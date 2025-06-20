@@ -142,7 +142,7 @@ export default function RegisterPage() {
               <div className="relative h-full flex flex-col justify-center p-12 text-white">
                 <h1 className="text-3xl font-bold mb-6">Únete a nuestra comunidad educativa</h1>
                 <p className="text-white/90 mb-8">
-                  Crea tu cuenta para acceder a nuestros cursos, evaluaciones DISC y recursos exclusivos para tu
+                  Crea tu cuenta para acceder a nuestros cursos, evaluaciones  y recursos exclusivos para tu
                   desarrollo profesional.
                 </p>
                 <div className="relative h-64 rounded-lg overflow-hidden shadow-xl">

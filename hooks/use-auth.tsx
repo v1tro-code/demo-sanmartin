@@ -22,7 +22,7 @@ const demoUser: User = {
   role: "student",
   avatar: "/professional-man.png",
   enrolledCourses: ["1", "2"],
-  discProfile: {
+  Profile: {
     dominance: 0.7,
     influence: 0.5,
     steadiness: 0.3,

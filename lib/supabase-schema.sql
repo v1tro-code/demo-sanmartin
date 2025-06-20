@@ -56,8 +56,8 @@ CREATE TABLE IF NOT EXISTS course_enrollments (
   UNIQUE(user_id, course_id)
 );
 
--- Tabla de perfiles DISC
-CREATE TABLE IF NOT EXISTS disc_profiles (
+-- Tabla de perfiles 
+CREATE TABLE IF NOT EXISTS _profiles (
   id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
   user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE,
   d_score INTEGER,
@@ -78,7 +78,7 @@ CREATE INDEX IF NOT EXISTS idx_course_modules_course_id ON course_modules(course
 CREATE INDEX IF NOT EXISTS idx_course_lessons_module_id ON course_lessons(module_id);
 CREATE INDEX IF NOT EXISTS idx_course_enrollments_user_id ON course_enrollments(user_id);
 CREATE INDEX IF NOT EXISTS idx_course_enrollments_course_id ON course_enrollments(course_id);
-CREATE INDEX IF NOT EXISTS idx_disc_profiles_user_id ON disc_profiles(user_id);
+CREATE INDEX IF NOT EXISTS idx__profiles_user_id ON _profiles(user_id);
 
 -- Trigger para actualizar el campo updated_at automáticamente
 CREATE OR REPLACE FUNCTION update_updated_at_column()
@@ -109,8 +109,8 @@ BEFORE UPDATE ON course_enrollments
 FOR EACH ROW
 EXECUTE FUNCTION update_updated_at_column();
 
-CREATE TRIGGER update_disc_profiles_updated_at
-BEFORE UPDATE ON disc_profiles
+CREATE TRIGGER update__profiles_updated_at
+BEFORE UPDATE ON _profiles
 FOR EACH ROW
 EXECUTE FUNCTION update_updated_at_column();
 

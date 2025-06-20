@@ -20,7 +20,7 @@ export default async function ProfilePage() {
       lastName: "Demo",
       role: "student" as const,
       enrolledCourses: ["1", "2", "3"],
-      discProfile: {
+      Profile: {
         dominance: 7,
         influence: 8,
         steadiness: 6,

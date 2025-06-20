@@ -1,16 +1,16 @@
 import Image from "next/image"
 import Link from "next/link"
 import Button from "@/components/atoms/Button/Button"
-import DiscBenefits from "@/components/organisms/DiscBenefits/DiscBenefits"
-import DiscCertificate from "@/components/organisms/DiscCertificate/DiscCertificate"
+import Benefits from "@/components/organisms/Benefits/Benefits"
+import Certificate from "@/components/organisms/Certificate/Certificate"
 import ContactForm from "@/components/organisms/ContactForm/ContactForm"
 
 export const metadata = {
   title: "Sanmartin Academia",
-  description: "Descubre tu perfil DISC y mejora tus habilidades personales y profesionales",
+  description: "Descubre tu perfil  y mejora tus habilidades personales y profesionales",
 }
 
-export default function DiscPage() {
+export default function Page() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -19,10 +19,10 @@ export default function DiscPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-                Descubre tu perfil DISC y potencia tu desarrollo
+                Descubre tu perfil  y potencia tu desarrollo
               </h1>
               <p className="text-lg md:text-xl opacity-90">
-                La evaluación DISC es una herramienta poderosa para comprender tu estilo de comportamiento y mejorar tus
+                La evaluación  es una herramienta poderosa para comprender tu estilo de comportamiento y mejorar tus
                 relaciones personales y profesionales.
               </p>
               <div className="pt-4">
@@ -35,19 +35,19 @@ export default function DiscPage() {
             </div>
 
             <div className="relative h-[400px] rounded-xl overflow-hidden shadow-2xl">
-              <Image src="/placeholder.svg?key=4jyn5" alt="Evaluación DISC" fill className="object-cover" priority />
+              <Image src="/placeholder.svg?key=4jyn5" alt="Evaluación " fill className="object-cover" priority />
             </div>
           </div>
         </div>
       </section>
 
-      {/* What is DISC Section */}
+      {/* What is  Section */}
       <section className="py-16 bg-white" id="que-es">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">¿Qué es la evaluación?</h2>
             <p className="text-lg text-gray-700">
-              DISC es un modelo de comportamiento basado en el trabajo del psicólogo William Moulton Marston. Identifica
+               es un modelo de comportamiento basado en el trabajo del psicólogo William Moulton Marston. Identifica
               cuatro tipos de personalidad principales: Dominancia (D), Influencia (I), Estabilidad (S) y Cumplimiento
               (C).
             </p>
@@ -90,17 +90,17 @@ export default function DiscPage() {
       </section>
 
       {/* Benefits Section */}
-      <DiscBenefits />
+      <Benefits />
 
       {/* Certificate Section */}
-      <DiscCertificate />
+      <Certificate />
 
       {/* Contact Form Section */}
       <section className="py-16 bg-muted" id="contacto">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">¿Interesado en la evaluación DISC?</h2>
+              <h2 className="text-3xl font-bold mb-4">¿Interesado en la evaluación ?</h2>
               <p className="text-gray-600">
                 Completa el formulario y un asesor se pondrá en contacto contigo para resolver todas tus dudas.
               </p>

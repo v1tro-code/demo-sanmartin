@@ -47,13 +47,13 @@ const featuredCourses = [
     id: "4",
     title: "Introducción ",
     description:
-      "Comprende los fundamentos del modelo DISC y cómo aplicarlo en tu desarrollo personal y profesional para mejorar tus relaciones y rendimiento.",
+      "Comprende los fundamentos del modelo y cómo aplicarlo en tu desarrollo personal y profesional para mejorar tus relaciones y rendimiento.",
     image: "/young-entrepreneur-man.png",
     duration: "4 semanas",
     students: 763,
     rating: 4.7,
     price: 0,
-    category: "DISC",
+    category: "",
   },
 ]
 

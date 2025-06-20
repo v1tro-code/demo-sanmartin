@@ -45,7 +45,7 @@ const MoodleAccess = ({ userData }: MoodleAccessProps) => {
       <div className="bg-gray-50 rounded-lg p-6">
         <p className="text-gray-700 mb-6">
           Desde aquí puedes acceder a la plataforma Moodle donde encontrarás el contenido completo de tus cursos,
-          incluyendo materiales descargables, evaluaciones y foros de discusión.
+          incluyendo materiales descargables, evaluaciones y foros de usión.
         </p>
 
         {moodleLink ? (
@@ -75,7 +75,7 @@ const MoodleAccess = ({ userData }: MoodleAccessProps) => {
 
         <div className="bg-blue-50 p-4 rounded-md border border-blue-200">
           <h3 className="font-medium text-blue-800 mb-2">Información importante</h3>
-          <ul className="list-disc list-inside text-blue-700 space-y-1 text-sm">
+          <ul className="list- list-inside text-blue-700 space-y-1 text-sm">
             <li>Tu nombre de usuario en Moodle es tu dirección de email</li>
             <li>Si es tu primera vez, deberás establecer una contraseña al acceder</li>
             <li>

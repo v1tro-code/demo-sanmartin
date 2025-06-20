@@ -603,7 +603,7 @@ const mockCourses: Course[] = [
     description:
       "Supera la parálisis por análisis y desarrolla la capacidad de pasar de la planificación a la ejecución efectiva.",
     longDescription:
-      "Este curso práctico te ayuda a desarrollar una mentalidad orientada a resultados y la disciplina de ejecución. Aprenderás a combatir la procrastinación, manejar la aversión al riesgo, implementar sistemas de acción inmediata, y mantener el impulso hasta completar los proyectos y alcanzar tus objetivos.",
+      "Este curso práctico te ayuda a desarrollar una mentalidad orientada a resultados y la iplina de ejecución. Aprenderás a combatir la procrastinación, manejar la aversión al riesgo, implementar sistemas de acción inmediata, y mantener el impulso hasta completar los proyectos y alcanzar tus objetivos.",
     image: "/images/logo-utede.png",
     duration: "5 semanas",
     students: 428,

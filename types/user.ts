@@ -6,7 +6,7 @@ export interface User {
   avatar?: string
   role: "student" | "instructor" | "admin"
   enrolledCourses?: string[]
-  discProfile?: {
+  Profile?: {
     dominance: number
     influence: number
     steadiness: number

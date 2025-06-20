@@ -1,6 +1,6 @@
 import { Target, Users, Lightbulb, TrendingUp, Briefcase, Heart } from "lucide-react"
 
-const DiscBenefits = () => {
+const Benefits = () => {
   const benefits = [
     {
       icon: <Target className="h-10 w-10 text-primary" />,
@@ -44,9 +44,9 @@ const DiscBenefits = () => {
     <section className="py-16 bg-muted" id="beneficios">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Beneficios del programa DISC</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Beneficios del programa </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            Descubre cómo la evaluación DISC puede transformar tu vida personal y profesional a través de un mayor
+            Descubre cómo la evaluación  puede transformar tu vida personal y profesional a través de un mayor
             autoconocimiento y mejores relaciones interpersonales.
           </p>
         </div>
@@ -67,4 +67,4 @@ const DiscBenefits = () => {
   )
 }
 
-export default DiscBenefits
+export default Benefits

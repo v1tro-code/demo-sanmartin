@@ -438,7 +438,7 @@ const StudentDashboard = ({ userData }: StudentDashboardProps) => {
                         </li>
                         <li className="flex items-start">
                           <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5" />
-                          <span>Foros de discusión y comunicación con profesores</span>
+                          <span>Foros de usión y comunicación con profesores</span>
                         </li>
                         <li className="flex items-start">
                           <CheckCircle className="w-5 h-5 text-green-500 mr-2 mt-0.5" />

@@ -2,21 +2,21 @@ import Button from "@/components/atoms/Button/Button"
 import Link from "next/link"
 import Image from "next/image"
 
-const DiscSection = () => {
+const Section = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Descubre tu perfil DISC</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Descubre tu perfil </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            La evaluación DISC es una herramienta poderosa para comprender tu estilo de comportamiento y mejorar tus
+            La evaluación  es una herramienta poderosa para comprender tu estilo de comportamiento y mejorar tus
             relaciones personales y profesionales.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="relative h-[450px] rounded-xl overflow-hidden shadow-lg order-2 md:order-1">
-            <Image src="/placeholder.svg?key=4xnsf" alt="Evaluación DISC" fill className="object-cover" />
+            <Image src="/placeholder.svg?key=4xnsf" alt="Evaluación " fill className="object-cover" />
           </div>
 
           <div className="order-1 md:order-2">
@@ -40,9 +40,9 @@ const DiscSection = () => {
             </div>
 
             <div className="text-center md:text-left">
-              <Link href="/disc">
+              <Link href="/">
                 <Button variant="secondary" size="lg">
-                  Realizar evaluación DISC
+                  Realizar evaluación 
                 </Button>
               </Link>
             </div>
@@ -53,4 +53,4 @@ const DiscSection = () => {
   )
 }
 
-export default DiscSection
+export default Section

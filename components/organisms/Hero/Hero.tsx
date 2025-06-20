@@ -25,7 +25,7 @@ const Hero = () => {
                 Potencia tu <span className="text-white">desarrollo</span> con nuestra Universidad
               </h1>
               <p className="text-lg md:text-xl opacity-90 max-w-xl">
-                Cursos especializados y evaluación DISC para impulsar tu crecimiento personal y profesional.
+                Cursos especializados y evaluación  para impulsar tu crecimiento personal y profesional.
               </p>
             </div>
 
@@ -36,9 +36,9 @@ const Hero = () => {
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
-              <Link href="/disc">
+              <Link href="/">
                 <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/10">
-                  Evaluación DISC
+                  Evaluación 
                 </Button>
               </Link>
             </div>

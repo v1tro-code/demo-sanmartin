@@ -162,7 +162,7 @@ const ContactForm = () => {
               >
                 <option value="evaluacion-individual">Evaluación individual</option>
                 <option value="evaluacion-equipo">Evaluación para equipos</option>
-                <option value="certificacion">Certificación DISC</option>
+                <option value="certificacion">Certificación </option>
                 <option value="consultoria">Consultoría empresarial</option>
               </select>
             </div>
