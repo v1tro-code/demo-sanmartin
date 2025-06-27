@@ -3,7 +3,7 @@
 import { useState } from "react"
 import ProfileInfo from "@/components/organisms/ProfileInfo/ProfileInfo"
 import EnrolledCourses from "@/components/organisms/EnrolledCourses/EnrolledCourses"
-import Profile from "@/components/organisms/Profile/Profile"
+import DiscProfile from "@/components/organisms/DiscProfile/DiscProfile"
 import MoodleAccess from "@/components/organisms/MoodleAccess/MoodleAccess"
 import AccountSettings from "@/components/organisms/AccountSettings/AccountSettings"
 import type { User } from "@/types/user"
@@ -46,7 +46,7 @@ const ProfileTabs = ({ userData }: ProfileTabsProps) => {
       <div className="bg-white rounded-b-xl shadow-md p-6">
         {activeTab === "profile" && <ProfileInfo userData={userData} />}
         {activeTab === "courses" && <EnrolledCourses userId={userData.id} />}
-        {activeTab === "" && <Profile userData={userData} />}
+        {activeTab === "" && <DiscProfile userData={userData} />}
         {activeTab === "moodle" && <MoodleAccess userData={userData} />}
         {activeTab === "settings" && <AccountSettings userData={userData} />}
       </div>

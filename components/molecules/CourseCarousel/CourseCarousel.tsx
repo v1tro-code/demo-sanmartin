@@ -154,7 +154,7 @@ const CourseCarousel = ({
               </div>
 
               <div className="flex flex-wrap gap-4">
-                <Link href={`/cursos/${activeCourse.id}`}>
+                <Link href='https://campus.edux.com.co/login/index.php?loginredirect=1 '>
                   <Button variant="accent" size="lg">
                     Ver Curso
                   </Button>

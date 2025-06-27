@@ -1,8 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
 import Button from "@/components/atoms/Button/Button"
-import Benefits from "@/components/organisms/Benefits/Benefits"
-import Certificate from "@/components/organisms/Certificate/Certificate"
+import DiscBenefits from "@/components/organisms/DiscBenefits/DiscBenefits"
+import DiscCertificate from "@/components/organisms/DiscCertificate/DiscCertificate"
 import ContactForm from "@/components/organisms/ContactForm/ContactForm"
 
 export const metadata = {
@@ -90,10 +90,10 @@ export default function Page() {
       </section>
 
       {/* Benefits Section */}
-      <Benefits />
+      <DiscBenefits />
 
       {/* Certificate Section */}
-      <Certificate />
+      <DiscCertificate />
 
       {/* Contact Form Section */}
       <section className="py-16 bg-muted" id="contacto">

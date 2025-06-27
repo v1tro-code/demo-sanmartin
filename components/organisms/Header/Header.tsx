@@ -51,7 +51,6 @@ const Header = () => {
             <div className="sm:hidden">
               <Button
                 iconOnly
-                iconColor="primary"
                 icon={<Menu size={24} />}
                 aria-label="Menú"
                 className="transition-colors duration-300"
